@@ -66,7 +66,7 @@ Run the following command:
 Follow the instructions below to run the tests.
 
 1. Make sure that you have a file named `.test.env`
-> **Important** :
+> **Warning** :
 > We highly recommend you create a seperate database for testing as we will clean up all database data on each test entry.
 2. Run `npm run test` or `yarn test`
 
