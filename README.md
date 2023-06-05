@@ -102,6 +102,6 @@ Creates a Parcel.
 | `description` | `string` | required |
 | `country` | `string` | required |
 | `town` | `string` | required |
-| `deliveryDate` | `string` | optional |
+| `deliveryDate` | `string` | required |
 
 ***Note***: we don't allow duplicate SKU 
