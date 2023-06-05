@@ -41,7 +41,7 @@ Follow the instructions below to set up and run the app.
 
 1. Make sure Docker is running on your machine.
 
-2. Make sure to update your .env file accordingly to match the database set-up in `docker-compose.yml` File:
+2. Make sure to update your `.env` file accordingly to match the database set-up in `docker-compose.yml` File:
  ```
 DB_HOST=db
 DB_PASSWORD=root
