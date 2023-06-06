@@ -28,7 +28,7 @@ Follow the instructions below to set up and run the app.
 
 
 4. Configure the database connection:
-   - Open the `.env` file and update the database connection parameters as per your MySQL database setup.
+   - Create/Open the `.env` file and update the database connection parameters to match your MySQL database setup.
 
 > **Note** :
 > Make sure that you create a database named `deliveries` before running the application.
