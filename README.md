@@ -20,7 +20,7 @@ Follow the instructions below to set up and run the app.
 
 2. Navigate to the backend directory:
 
-````cd backend ````
+````cd shipping-backend ````
 
 3. Install dependencies:
 
@@ -34,14 +34,14 @@ Follow the instructions below to set up and run the app.
 > Make sure that you create a database named `deliveries` before running the application.
 
 ### Run the App (Locally)
-1. Navigate to shipping-app directory
+1. Navigate to shipping-backend directory
 2. run `npm run start` or `yarn start`
 
 ### Running the App (Docker)
 
 1. Make sure Docker is running on your machine.
 
-2. Make sure to update your .env file accordingly to match the database set-up in `docker-compose.yml` File:
+2. Make sure to update your `.env` file accordingly to match the database set-up in `docker-compose.yml` File:
  ```
 DB_HOST=db
 DB_PASSWORD=root
@@ -65,8 +65,8 @@ Run the following command:
 
 Follow the instructions below to run the tests.
 
-1. make sure that you have a file named `.test.env`
-> **Important** :
+1. Make sure that you have a file named `.test.env`
+> **Warning** :
 > We highly recommend you create a seperate database for testing as we will clean up all database data on each test entry.
 2. Run `npm run test` or `yarn test`
 
@@ -91,7 +91,7 @@ Returns a list of parcels sorted by Estonia first and DeliveryDate Ascending
 ```http 
 POST /parcels
 ```
-Create a Parcel.
+Creates a Parcel.
 
 
 
@@ -102,6 +102,6 @@ Create a Parcel.
 | `description` | `string` | required |
 | `country` | `string` | required |
 | `town` | `string` | required |
-| `deliveryDate` | `string` | optional |
+| `deliveryDate` | `string` | required |
 
 ***Note***: we don't allow duplicate SKU 
